@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Solar Energy Calculator</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Solar Energy Calculator</h2>
+        <p>Estimate the benefits and costs of installing solar panels and learn about solar energy.</p>
+    </section>
+
+    <section id="calculator">
+        <h2>Solar Energy Calculator</h2>
+        <form id="calculator-form">
+            <label for="energy-consumption">Monthly Energy Consumption (kWh):</label>
+            <input type="number" id="energy-consumption" name="energy-consumption" required>
+            
+            <label for="solar-panel-cost">Cost of Solar Panels ($/kW):</label>
+            <input type="number" id="solar-panel-cost" name="solar-panel-cost" required>
+            
+            <label for="average-sun-hours">Average Sun Hours per Day:</label>
+            <input type="number" id="average-sun-hours" name="average-sun-hours" required>
+            
+            <button type="submit">Calculate</button>
+        </form>
+        
+        <div id="results">
+            <h3>Estimated Savings</h3>
+            <p id="savings-result">Your estimated savings will appear here.</p>
+        </div>
+    </section>
+
+    <section id="about">
+    <h2>About Us</h2>
+    <p>The Solar Energy Calculator is a front-end web development project created during the IBM CSRBox internship. Our goal is to provide a user-friendly tool for homeowners to estimate the benefits and costs of installing solar panels, promoting affordable and clean energy.</p>
+    
+    <h3>Project Team:</h3>
+    <ul>
+        <li>Karan Singh Gahlot (01719011622)</li>
+        <li>Vipin (06819011621)</li>
+        <li>Vishal (07719011621)</li>
+        <li>Mitul (01219011622)</li>
+        <li>Yash (01319011622)</li>
+        <li>Divyansh (00719011622)</li>
+        <li>Harsh (07419011621)</li>
+        <li>Jatin (07219011621)</li>
+        <li>Yogesh (00219011622)</li>
+    </ul>
+</section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Solar Energy Calculator. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
